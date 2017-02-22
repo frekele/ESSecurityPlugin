@@ -16,6 +16,7 @@ and Opensource alternative - SearchGuard (https://floragunn.com/searchguard).
    simplesecurity.auth.user: user
    simplesecurity.auth.password: password
    
+   
    REST API protection is implemented using HTTP Basic Authentication mechanism, you need to add user/password in Curl command or submit      authentication form to use a monitoring plugin, such as kopf.
    
    To enable protetion for Java Transport Client, add follwowing configurations in elasticsearch.yml file:
