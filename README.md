@@ -1,10 +1,9 @@
 # ESSecurityPlugin
 This Plugin provides username and password protection to prevent unauthorized access to Elasticsearch(ver 2.4) cluster.
 It can secure both REST API and Java Transport Client by defining configurations in elasticsearch.yml file.
-This plugin is to demonstrate how to write a Elasticsearch plugin for security purpose and It can be used in internal Development environment. 
-This plugin only supports Elasticsearch 2.4. It is not recommended to use this plugin for a production environment especially for a public cluster. For production level protection, please check Shield plugin from Elasticsearch(https://www.elastic.co/guide/en/shield/current)
-and Opensource alternative - SearchGuard (https://floragunn.com/searchguard).
+This plugin is to demonstrate how to write a Elasticsearch plugin for security purpose and It can be used in internal Development environment. This plugin only supports Elasticsearch 2.4.For production level protection, please check Shield plugin from Elasticsearch(https://www.elastic.co/guide/en/shield/current) or Opensource alternative - SearchGuard (https://floragunn.com/searchguard).
 
+## Getting Started
 1. Install the plugin. 
    Download the source and run Maven command - mvn clean package to build plugin zip file - security-plugin-1.1.zip in target/releases folder.
    In bin folder of Elasticsearch, run - plugin install file://path-to-plugin-zip-file to install plugin.
