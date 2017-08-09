@@ -7,7 +7,7 @@ This plugin is to demonstrate how to write a Elasticsearch plugin for security p
 ### Installing 
 Download the source and run Maven command - ```mvn clean package``` to build plugin zip file - security-plugin-1.1.zip in target/releases folder. In bin folder of Elasticsearch, run:
 ```
-plugin install file://path-to-plugin-zip-file to install plugin.
+plugin install file://path-to-plugin-zip-file
 ```
 ### Config the plugin
 * To enable REST API protection, add follwowing configurations in elasticsearch.yml file:
