@@ -10,7 +10,7 @@ Download the source and run Maven command - ```mvn clean package``` to build plu
 plugin install file://path-to-plugin-zip-file
 ```
 ### Config the plugin
-* To enable REST API protection, add follwowing configurations in elasticsearch.yml file:
+* To enable REST API protection, add following configurations in elasticsearch.yml file:
 ```   
 simplesecurity.auth.enable: true
 simplesecurity.auth.user: user
